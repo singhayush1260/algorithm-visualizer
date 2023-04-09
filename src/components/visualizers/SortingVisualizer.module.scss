@@ -1,0 +1,28 @@
+.settings{
+    width: 100%;
+    height: 10vh;
+    background-color: #3E54AC;
+}
+.array{
+    width: 1130px;
+    height: 450px; 
+    margin-top: 30px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.array:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.1;
+    background-image: url('../src/assets/graph-paper.svg');
+
+  }

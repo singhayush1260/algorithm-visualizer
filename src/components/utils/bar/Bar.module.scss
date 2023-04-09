@@ -1,0 +1,15 @@
+.bar {
+    width: 35px;
+    position: absolute;
+    left: 10px;
+    bottom: 0;
+    transition: 0.2s all ease;
+    background-color: #3B9AE1;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}

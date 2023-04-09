@@ -1,0 +1,19 @@
+.element
+{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+}
+.visited{
+    background-color:red
+  }
+  .found{
+    background-color: green;
+  }
+  .ignore{
+    background-color: gray
+  }
